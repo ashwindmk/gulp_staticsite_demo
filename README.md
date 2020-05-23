@@ -3,26 +3,26 @@
 
 This project shows how to minify your files using Gulp.
 
-### Steps
+### Usage
 
-##### 1. Install Gulp
+### 1. Install Gulp
 ```shell
 npm install gulp -g
 
 npm install gulp --save-dev
 ```
 
-##### 2. NPM Install
+### 2. NPM Install
 ```shell
 npm install
 ```
 
-##### 3. Run Gulp Task
+### 3. Run Gulp Task
 ```shell
 gulp message
 ```
 
-##### 4. Gulp optimize images
+### 4. Gulp optimize images
 
 **Install Imagemin**
 ```
@@ -47,7 +47,7 @@ gulp.task('imageMin', function(done) {
 gulp imageMin
 ```
 
-##### 5. Gulp Minify JS
+### 5. Gulp Minify JS
 
 **Install Uglify**
 ```shell
@@ -71,7 +71,7 @@ gulp.task('minifyJs', function(done) {
 gulp minifyJs
 ```
 
-##### 6. Gulp Minify CSS
+### 6. Gulp Minify CSS
 
 **Install Gulp Clean CSS**
 ```shell
@@ -95,7 +95,7 @@ gulp.task('minifyCss', function(done) {
 gulp minifyCss
 ```
 
-##### 7. Execute all Gulp Tasks
+### 7. Execute all Gulp Tasks
 
 **Add Gulp Series of Tasks**
 ```javascript
