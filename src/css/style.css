@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background: rgb(225, 225, 225);
+    color: black;
+}
+
+#body-wrapper {
+    display: block;
+    position: relative;
+    width: 75vw;
+    margin: 20px auto;
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+.footer {
+    margin: 20px;
+    padding: 10px;
+    background-color: lightgrey;
+}
